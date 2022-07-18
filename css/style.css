@@ -385,3 +385,11 @@ footer{
 footer div{
   color: #D62E38;
 }
+
+@media only screen and (max-width: 600){
+  .projects{
+    grid-template-columns: 500px;
+    grid-gap: 10px;
+    padding: 5px;
+  }
+}
